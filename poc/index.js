@@ -1,3 +1,3 @@
 const { runPipeline } = require("./pipeline.js");
-
-runPipeline([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3)
+const data = Array.from({ length: 200 }, (_, i) => i + 1)
+runPipeline(data, 25)
